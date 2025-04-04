@@ -1,1270 +1,521 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-
-local Window = Rayfield:CreateWindow({
-   Name = "3x3 hub | Free Script | South Bronx: The Trenches❗",
-   LoadingTitle = "3x3hub's Free Script",
-   LoadingSubtitle = "Created by 3x3owner on dc",
-   ConfigurationSaving = {
-      Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "3x3hub Hub"
-   },
-    Discord = {
-        Enabled = true,
-        Invite = "NBvmSdxfz9",
-        RememberJoins = false
-    },
-   KeySystem = true, -- Enable key system
-    KeySettings = {
-        Title = "Key System",
-        Subtitle = "Created by 3x3owner on dc",
-        Note = "To get the key, add 3x3owner on discord",
-        FileName = "3X3 HUB KEY",
-        SaveKey = true, -- Key won't be saved permanently
-        GrabKeyFromSite = false,
-        Key = {"3x3hub42"} -- List of accepted keys or key URLs
-    }
-})
-
-Rayfield:Notify({
-   Title = "Welcome To MAGMA HUB",
-   Content = "Thanks for using our script!",
-   Duration = 5,
-   Image = nil,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "...",
-         Callback = function()
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-         print("Join Discord https://discord.gg/NBvmSdxfz9")
-      end
-   },
-},
-})
-
-local InfoTab = Window:CreateTab("Info", nil) -- Title, Image
-local InfoSection = InfoTab:CreateSection("Info")
-
-local PlayerTab = Window:CreateTab("Player", nil) -- Title, Image
-local PlayerSection = PlayerTab:CreateSection("Player")
-
-local ESPTab = Window:CreateTab("ESP", nil) -- Title, Image
-local ESPSection = ESPTab:CreateSection("ESP")
-
-local AimlockTab = Window:CreateTab("Aimlock", nil) -- Title, Image
-local AimlockSection = AimlockTab:CreateSection("Aimlock")
-
-local AutofarmTab = Window:CreateTab("AutoFarm", nil) -- Title, Image
-local Section = AutofarmTab:CreateSection("Autofarm")
-
-local InfYTab = Window:CreateTab("Inf Yeld")
-local InfYSection = InfYTab:CreateSection("InfY")
-
--- Player Tab - Walk Speed
-local Slider = PlayerTab:CreateSlider({
-    Name = "Walk Speed",
-    Range = {0, 23},
-    Increment = 1,
-    Suffix = "Speed",
-    CurrentValue = 16,
-    Flag = "Slider1", -- Ensure the flag is unique
-    Callback = function(Value)
-        local player = game.Players.LocalPlayer
-        if player and player.Character and player.Character:FindFirstChild("Humanoid") then
-            player.Character.Humanoid.WalkSpeed = Value
-        end
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local StarterGui = game:GetService("StarterGui")
+local MarketplaceService = game:GetService("MarketplaceService")
+local Camera = workspace.CurrentCamera
+local LocalPlayer = Players.LocalPlayer
+ 
+--// GUI Library (Kavo UI)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("South Bronx GUI", "DarkTheme")
+ 
+--------------------------------------------------
+-- Tabs and Sections
+--------------------------------------------------
+local ESP_Tab = Window:NewTab("ESP")
+local ESPSection = ESP_Tab:NewSection("ESP Settings")
+ 
+local Aim_Tab = Window:NewTab("Aim")
+local AimSection = Aim_Tab:NewSection("Aim Settings")
+ 
+local Security = Window:NewTab("Security")
+local SecuritySection = Security:NewSection("Security Settings")
+ 
+local AboutMe = Window:NewTab("About Me")
+local AboutSection = AboutMe:NewSection("Player Info")
+ 
+--------------------------------------------------
+-- Variables for ESP and Aimbot
+--------------------------------------------------
+local BoxESPEnabled = false
+local SkeletonESPEnabled = false
+local ESPColor = Color3.new(1, 1, 1)
+ 
+local AimbotEnabled = false
+local TeamCheck = false
+local AimPart = "Head"
+local Sensitivity = 0.1
+local FOV_Radius = 100
+local FOV_Visible = false
+local FOV_Color = Color3.fromRGB(255, 255, 255)
+ 
+local Holding = false  -- لتتبع ضغط زر الماوس
+ 
+-- Aim Safe: قائمة بأسماء اللاعبين (يتم اختيارهم من Dropdown)
+local safePlayers = {}
+ 
+--------------------------------------------------
+-- Speed Limit Variables (Security)
+--------------------------------------------------
+local MapSpeedLimit = 200  -- قيمة افتراضية، سيتم تحديثها عند الكشف
+local LockSpeedEnabled = false
+ 
+--------------------------------------------------
+-- God Mode Variable
+--------------------------------------------------
+local GodModeEnabled = false
+ 
+--------------------------------------------------
+-- FOV Circle Drawing
+--------------------------------------------------
+local FOVCircle = Drawing.new("Circle")
+FOVCircle.Filled = false
+FOVCircle.Transparency = 0.7
+FOVCircle.NumSides = 64
+FOVCircle.Thickness = 1.5
+ 
+--------------------------------------------------
+-- ESP Drawings Storage (per player)
+--------------------------------------------------
+local espDrawings = {} -- { [player] = { Box = drawing, Health = drawing } }
+local skeletonDrawings = {} -- { [player] = { Lines = {line1, line2, ...} } }
+ 
+--------------------------------------------------
+-- Functions for Box ESP
+--------------------------------------------------
+local function CreateESP(player)
+    if espDrawings[player] then return end
+    local box = Drawing.new("Square")
+    box.Thickness = 2
+    box.Color = ESPColor
+    box.Filled = false
+    box.Visible = false
+ 
+    local healthBar = Drawing.new("Square")
+    healthBar.Thickness = 0
+    healthBar.Filled = true
+    healthBar.Color = Color3.new(0, 1, 0)
+    healthBar.Visible = false
+ 
+    espDrawings[player] = { Box = box, Health = healthBar }
+end
+ 
+local function RemoveESP(player)
+    if espDrawings[player] then
+        if espDrawings[player].Box then espDrawings[player].Box:Remove() end
+        if espDrawings[player].Health then espDrawings[player].Health:Remove() end
+        espDrawings[player] = nil
     end
-})
-
-local Button = PlayerTab:CreateButton({
-    Name = "Instant interact",
-    Callback = function()
-         for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
-    if v:IsA("ProximityPrompt") then
-        v["HoldDuration"] = 0
+    if skeletonDrawings[player] then
+        for _, line in pairs(skeletonDrawings[player].Lines) do
+            if line then line:Remove() end
+        end
+        skeletonDrawings[player] = nil
     end
 end
  
+local function UpdateESP()
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+            CreateESP(player)
+            local drawings = espDrawings[player]
+            local hrp = player.Character:FindFirstChild("HumanoidRootPart")
+            local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+            if hrp and humanoid then
+                local rootPos, onScreen = Camera:WorldToViewportPoint(hrp.Position)
+                if onScreen then
+                    -- Box ESP dimensions: 40x80
+                    drawings.Box.Size = Vector2.new(40, 80)
+                    drawings.Box.Position = Vector2.new(rootPos.X - 20, rootPos.Y - 40)
+                    drawings.Box.Color = ESPColor
+                    drawings.Box.Visible = BoxESPEnabled
  
-game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(v)
-    v["HoldDuration"] = 0
-end) 
-   end,
-})
-
--- Textbox to input aim lock key
-local KeyInput = AimlockTab:CreateInput({
-    Name = "AimLock Key",
-    PlaceholderText = "Enter Key (Any Key)",
-    RemoveTextAfterFocusLost = false,
-    Callback = function(inputKey)
-        AimLockKey = inputKey:lower()
-        Rayfield:Notify({
-            Title = "Key Updated",
-            Content = "Aimlock key updated to: " .. AimLockKey,
-            Duration = 3
-        })
-    end
-})
-
--- Textbox to input prediction factor
-local PredictionInput = AimlockTab:CreateInput({
-    Name = "AimLock Prediction",
-    PlaceholderText = "Enter Prediction (0.1 - 1)",
-    RemoveTextAfterFocusLost = false,
-    Callback = function(inputPrediction)
-        local newPrediction = tonumber(inputPrediction)
-        if newPrediction then
-            PredictionFactor = newPrediction
-            Rayfield:Notify({
-                Title = "Prediction Updated",
-                Content = "Prediction factor set to: " .. tostring(PredictionFactor),
-                Duration = 3
-            })
-        else
-            Rayfield:Notify({
-                Title = "Invalid Input",
-                Content = "Please enter a valid number for prediction.",
-                Duration = 3
-            })
-        end
-    end
-})
-
--- Aim Lock Button with user-defined key and prediction factor
-local Button = AimlockTab:CreateButton({
-    Name = "Activate AimLock",
-    Callback = function()
-        local Players = game:GetService("Players")
-        local RunService = game:GetService("RunService")
-        local LocalPlayer = Players.LocalPlayer
-        local CamlockState = false
-        local enemy = nil
-
-        -- Function to find nearest enemy and lock onto their head
-        local function FindNearestEnemy()
-            local ClosestDistance, ClosestPlayer = math.huge, nil
-            local CenterPosition = Vector2.new(
-                game:GetService("GuiService"):GetScreenResolution().X / 2,
-                game:GetService("GuiService"):GetScreenResolution().Y / 2
-            )
-            for _, Player in ipairs(Players:GetPlayers()) do
-                if Player ~= LocalPlayer then
-                    local Character = Player.Character
-                    if Character and Character:FindFirstChild("Head") and Character.Humanoid.Health > 0 then
-                        local Position, OnScreen = workspace.CurrentCamera:WorldToViewportPoint(Character.Head.Position)
-                        if OnScreen then
-                            local Distance = (CenterPosition - Vector2.new(Position.X, Position.Y)).Magnitude
-                            if Distance < ClosestDistance then
-                                ClosestPlayer = Character.Head -- Target the Head
-                                ClosestDistance = Distance
-                            end
-                        end
-                    end
-                end
-            end
-            return ClosestPlayer
-        end
-
-        -- Function to apply prediction to the enemy position
-        local function GetPredictedPosition(enemyHead)
-            if enemyHead and enemyHead.Velocity then
-                return enemyHead.Position + (enemyHead.Velocity * PredictionFactor)
-            end
-            return enemyHead.Position
-        end
-
-        -- Camera lock loop
-        RunService.Heartbeat:Connect(function()
-            if CamlockState and enemy then
-                local targetPosition = GetPredictedPosition(enemy)
-                workspace.CurrentCamera.CFrame = CFrame.new(workspace.CurrentCamera.CFrame.p, targetPosition)
-            end
-        end)
-
-        -- Keybind to toggle aim lock with the user-defined key
-        LocalPlayer:GetMouse().KeyDown:Connect(function(key)
-            if key == AimLockKey then
-                CamlockState = not CamlockState
-                if CamlockState then
-                    enemy = FindNearestEnemy()
+                    -- Health Bar to the left
+                    local healthPerc = math.clamp(humanoid.Health / humanoid.MaxHealth, 0, 1)
+                    local barHeight = 80 * healthPerc
+                    drawings.Health.Size = Vector2.new(4, barHeight)
+                    drawings.Health.Position = Vector2.new(drawings.Box.Position.X - 8, drawings.Box.Position.Y + (80 - barHeight))
+                    drawings.Health.Color = Color3.fromHSV(healthPerc * 0.33, 1, 1)
+                    drawings.Health.Visible = BoxESPEnabled
                 else
-                    enemy = nil
+                    drawings.Box.Visible = false
+                    drawings.Health.Visible = false
                 end
             end
-        end)
-    end
-})
-
--- ESP Tab - Boxes
-local Button = ESPTab:CreateButton({
-    Name = "ESP Boxes",
-    Callback = function()
-        local settings = {
-            defaultcolor = Color3.fromRGB(255, 0, 0),
-            teamcheck = false,
-            teamcolor = true
-        }
-
-        local runService = game:GetService("RunService")
-        local players = game:GetService("Players")
-        local localPlayer = players.LocalPlayer
-        local camera = workspace.CurrentCamera
-
-        local espCache = {}
-
-        -- Function to create ESP box for a player
-        local function createEsp(player)
-            local drawings = {}
-            -- Create the main ESP box
-            drawings.box = Drawing.new("Square")
-            drawings.box.Thickness = 1
-            drawings.box.Filled = false
-            drawings.box.Color = settings.defaultcolor
-            drawings.box.Visible = false
-            drawings.box.ZIndex = 2
-
-            -- Create the outline for the box
-            drawings.boxoutline = Drawing.new("Square")
-            drawings.boxoutline.Thickness = 3
-            drawings.boxoutline.Filled = false
-            drawings.boxoutline.Color = Color3.new()
-            drawings.boxoutline.Visible = false
-            drawings.boxoutline.ZIndex = 1
-
-            espCache[player] = drawings
-        end
-
-        -- Function to remove ESP when a player leaves
-        local function removeEsp(player)
-            if espCache[player] then
-                for _, drawing in pairs(espCache[player]) do
-                    drawing:Remove()
-                end
-                espCache[player] = nil
-            end
-        end
-
-        -- Function to update ESP box position
-        local function updateEsp(player, esp)
-            local character = player.Character
-            if character and character:FindFirstChild("HumanoidRootPart") then
-                local position, visible = camera:WorldToViewportPoint(character.HumanoidRootPart.Position)
-                esp.box.Visible = visible
-                esp.boxoutline.Visible = visible
-
-                if visible then
-                    -- Calculate box size and position based on distance
-                    local scaleFactor = 1 / (position.Z * math.tan(math.rad(camera.FieldOfView / 2)) * 2) * 1000
-                    local width, height = math.round(4 * scaleFactor), math.round(5 * scaleFactor)
-                    local x, y = math.round(position.X), math.round(position.Y)
-
-                    esp.box.Size = Vector2.new(width, height)
-                    esp.box.Position = Vector2.new(x - width / 2, y - height / 2)
-                    esp.box.Color = settings.teamcolor and player.TeamColor.Color or settings.defaultcolor
-
-                    esp.boxoutline.Size = esp.box.Size
-                    esp.boxoutline.Position = esp.box.Position
-                end
-            else
-                esp.box.Visible = false
-                esp.boxoutline.Visible = false
-            end
-        end
-
-        -- Apply ESP to all current players
-        for _, player in pairs(players:GetPlayers()) do
-            if player ~= localPlayer then
-                createEsp(player)
-            end
-        end
-
-        -- Handle new players joining the game
-        players.PlayerAdded:Connect(function(player)
-            createEsp(player)
-        end)
-
-        -- Handle players leaving the game
-        players.PlayerRemoving:Connect(function(player)
-            removeEsp(player)
-        end)
-
-        -- Continuously update the ESP boxes for all players
-        runService.RenderStepped:Connect(function()
-            for player, drawings in pairs(espCache) do
-                if settings.teamcheck and player.Team == localPlayer.Team then
-                end
-
-                if player ~= localPlayer then
-                    updateEsp(player, drawings)
-                end
-            end
-        end)
-    end
-})
-
-local Button = ESPTab:CreateButton({
-    Name = "ESP Names",
-    Callback = function()
-    -- Services
-local players = game:GetService("Players")
-local runService = game:GetService("RunService")
-local camera = workspace.CurrentCamera
-local localPlayer = players.LocalPlayer
-
--- Table to store the ESP drawings
-local nameEspCache = {}
-
--- Function to create name ESP for a player
-local function createNameEsp(player)
-    if player == localPlayer then return end -- Don't show name for local player
-
-    local drawing = Drawing.new("Text")
-    drawing.Text = player.Name
-    drawing.Size = 8  -- Smaller text size
-    drawing.Color = Color3.new(1, 1, 1) -- White text
-    drawing.Outline = true
-    drawing.OutlineColor = Color3.new(0, 0, 0) -- Black outline
-    drawing.Center = true
-    drawing.Visible = false
-
-    nameEspCache[player] = drawing
-end
--- Function to remove the ESP drawing when a player leaves
-local function removeNameEsp(player)
-    if nameEspCache[player] then
-        nameEspCache[player]:Remove()
-        nameEspCache[player] = nil
-    end
-end
-
--- Function to update the ESP name position
-local function updateNameEsp(player, drawing)
-    local character = player.Character
-    if character and character:FindFirstChild("Head") then
-        local headPosition = character.Head.Position
-        local screenPosition, onScreen = camera:WorldToViewportPoint(headPosition)
-
-        if onScreen then
-            -- Offset below the head for the name label
-            drawing.Position = Vector2.new(screenPosition.X, screenPosition.Y + 20) -- Adjusted offset below the head
-            drawing.Visible = true
         else
-            drawing.Visible = false
+            RemoveESP(player)
+        end
+    end
+end
+ 
+--------------------------------------------------
+-- Functions for Skeleton ESP (Basic Implementation)
+--------------------------------------------------
+local function CreateSkeletonESP(player)
+    if skeletonDrawings[player] then return end
+    local lines = {}
+    -- We'll attempt to draw lines between key body parts if they exist.
+    local parts = {"Head", "Torso", "Left Arm", "Right Arm", "Left Leg", "Right Leg"}
+    for i = 1, #parts-1 do
+        local line = Drawing.new("Line")
+        line.Color = ESPColor
+        line.Thickness = 1
+        line.Transparency = 1
+        line.Visible = false
+        table.insert(lines, line)
+    end
+    skeletonDrawings[player] = { Lines = lines }
+end
+ 
+local function UpdateSkeletonESP()
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character then
+            CreateSkeletonESP(player)
+            local sData = skeletonDrawings[player]
+            local character = player.Character
+            -- تأكد من وجود بعض الأجزاء الرئيسية
+            local head = character:FindFirstChild("Head")
+            local torso = character:FindFirstChild("Torso") or character:FindFirstChild("UpperTorso")
+            local larm = character:FindFirstChild("Left Arm") or character:FindFirstChild("LeftUpperArm")
+            local rarm = character:FindFirstChild("Right Arm") or character:FindFirstChild("RightUpperArm")
+            local lleg = character:FindFirstChild("Left Leg") or character:FindFirstChild("LeftLowerLeg")
+            local rleg = character:FindFirstChild("Right Leg") or character:FindFirstChild("RightLowerLeg")
+            if head and torso and larm and rarm and lleg and rleg then
+                local partsPositions = {
+                    Head = Camera:WorldToViewportPoint(head.Position),
+                    Torso = Camera:WorldToViewportPoint(torso.Position),
+                    LeftArm = Camera:WorldToViewportPoint(larm.Position),
+                    RightArm = Camera:WorldToViewportPoint(rarm.Position),
+                    LeftLeg = Camera:WorldToViewportPoint(lleg.Position),
+                    RightLeg = Camera:WorldToViewportPoint(rleg.Position)
+                }
+                -- رسم بعض الخطوط (مثلاً من الرأس إلى الجذع، ومن الجذع إلى الأذرع والساقين)
+                local lines = sData.Lines
+                -- خط من الرأس إلى الجذع
+                if partsPositions.Head and partsPositions.Torso then
+                    lines[1].From = Vector2.new(partsPositions.Head.X, partsPositions.Head.Y)
+                    lines[1].To = Vector2.new(partsPositions.Torso.X, partsPositions.Torso.Y)
+                    lines[1].Color = ESPColor
+                    lines[1].Visible = SkeletonESPEnabled
+                end
+                -- خط من الجذع إلى الذراع اليسار
+                if partsPositions.Torso and partsPositions.LeftArm then
+                    lines[2].From = Vector2.new(partsPositions.Torso.X, partsPositions.Torso.Y)
+                    lines[2].To = Vector2.new(partsPositions.LeftArm.X, partsPositions.LeftArm.Y)
+                    lines[2].Color = ESPColor
+                    lines[2].Visible = SkeletonESPEnabled
+                end
+                -- خط من الجذع إلى الذراع اليمين
+                if partsPositions.Torso and partsPositions.RightArm then
+                    lines[3].From = Vector2.new(partsPositions.Torso.X, partsPositions.Torso.Y)
+                    lines[3].To = Vector2.new(partsPositions.RightArm.X, partsPositions.RightArm.Y)
+                    lines[3].Color = ESPColor
+                    lines[3].Visible = SkeletonESPEnabled
+                end
+                -- خط من الجذع إلى الساق اليسار
+                if partsPositions.Torso and partsPositions.LeftLeg then
+                    lines[4].From = Vector2.new(partsPositions.Torso.X, partsPositions.Torso.Y)
+                    lines[4].To = Vector2.new(partsPositions.LeftLeg.X, partsPositions.LeftLeg.Y)
+                    lines[4].Color = ESPColor
+                    lines[4].Visible = SkeletonESPEnabled
+                end
+                -- خط من الجذع إلى الساق اليمين
+                if partsPositions.Torso and partsPositions.RightLeg then
+                    lines[5].From = Vector2.new(partsPositions.Torso.X, partsPositions.Torso.Y)
+                    lines[5].To = Vector2.new(partsPositions.RightLeg.X, partsPositions.RightLeg.Y)
+                    lines[5].Color = ESPColor
+                    lines[5].Visible = SkeletonESPEnabled
+                end
+            end
+        else
+            RemoveESP(player)
+        end
+    end
+end
+ 
+--------------------------------------------------
+-- Visibility Check (Raycasting) -- (تم استخدامه أعلاه)
+--------------------------------------------------
+ 
+--------------------------------------------------
+-- Aim Safe: استخدام Dropdown لاختيار لاعب من القائمة لتجاهله
+--------------------------------------------------
+local function RefreshSafePlayers()
+    local safeList = {}
+    for _, player in ipairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer then
+            table.insert(safeList, player.Name)
+        end
+    end
+    return safeList
+end
+ 
+--------------------------------------------------
+-- Function to Get Closest Player for Aimbot (مع الفحص والإستثناء)
+--------------------------------------------------
+local function GetClosestPlayer()
+    local closestDistance = FOV_Radius
+    local targetPlayer = nil
+    for _, player in ipairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+            if TeamCheck and player.Team == LocalPlayer.Team then continue end
+            if table.find(safePlayers, player.Name) then continue end  -- تجاهل اللاعبين في Aim Safe
+            local aimPart = player.Character:FindFirstChild(AimPart)
+            if aimPart then
+                local screenPos, onScreen = Camera:WorldToViewportPoint(aimPart.Position)
+                local mousePos = UserInputService:GetMouseLocation()
+                local distance = (Vector2.new(screenPos.X, screenPos.Y) - mousePos).Magnitude
+                if onScreen and distance < closestDistance and (function() 
+                    local origin = Camera.CFrame.Position
+                    local direction = (aimPart.Position - origin)
+                    local params = RaycastParams.new()
+                    params.FilterDescendantsInstances = {LocalPlayer.Character}
+                    params.FilterType = Enum.RaycastFilterType.Blacklist
+                    local res = workspace:Raycast(origin, direction, params)
+                    return res and res.Instance and res.Instance:IsDescendantOf(player.Character)
+                end)() then
+                    closestDistance = distance
+                    targetPlayer = player
+                end
+            end
+        end
+    end
+    return targetPlayer
+end
+ 
+--------------------------------------------------
+-- Input for Aimbot (Hold right mouse button)
+--------------------------------------------------
+UserInputService.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton2 then
+        Holding = true
+    end
+end)
+UserInputService.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton2 then
+        Holding = false
+    end
+end)
+ 
+--------------------------------------------------
+-- Main RenderStepped Loop
+--------------------------------------------------
+RunService.RenderStepped:Connect(function()
+    -- Update FOV Circle
+    FOVCircle.Position = UserInputService:GetMouseLocation()
+    FOVCircle.Radius = FOV_Radius
+    FOVCircle.Color = FOV_Color
+    FOVCircle.Visible = FOV_Visible
+ 
+    -- Update Box ESP if enabled
+    if BoxESPEnabled then
+        UpdateESP()
+    else
+        for player, _ in pairs(espDrawings) do
+            RemoveESP(player)
+        end
+    end
+ 
+    -- Update Skeleton ESP if enabled
+    if SkeletonESPEnabled then
+        UpdateSkeletonESP()
+    end
+ 
+    -- Aimbot Logic: إذا كان الضغط على زر الفأرة اليمنى مفعلاً
+    if Holding and AimbotEnabled then
+        local target = GetClosestPlayer()
+        if target and target.Character and target.Character:FindFirstChild(AimPart) then
+            local targetPart = target.Character[AimPart]
+            TweenService:Create(Camera, TweenInfo.new(Sensitivity), {CFrame = CFrame.new(Camera.CFrame.Position, targetPart.Position)}):Play()
+        end
+    end
+ 
+    -- تأمين السرعة: عدم تجاوز سرعة اللاعب الحد المكتشف
+    if LockSpeedEnabled and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        local currentSpeed = LocalPlayer.Character.Humanoid.WalkSpeed
+        if currentSpeed > MapSpeedLimit then
+            LocalPlayer.Character.Humanoid.WalkSpeed = MapSpeedLimit
+        end
+    end
+ 
+    -- God Mode: إعادة ضبط الصحة إلى الحد الأقصى إذا كان مفعل
+    if GodModeEnabled and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        LocalPlayer.Character.Humanoid.Health = LocalPlayer.Character.Humanoid.MaxHealth
+    end
+end)
+ 
+--------------------------------------------------
+-- ESP Tab Controls
+--------------------------------------------------
+ESPSection:NewToggle("Box ESP", "Enable/Disable Box ESP", function(state)
+    BoxESPEnabled = state
+end)
+ESPSection:NewToggle("Skeleton ESP", "Enable/Disable Skeleton ESP", function(state)
+    SkeletonESPEnabled = state
+    -- عند التفعيل يتم إنشاء الرسومات لكل لاعب
+    if SkeletonESPEnabled then
+        for _, player in pairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer then
+                CreateESP(player)
+                CreateSkeletonESP(player)
+            end
         end
     else
-        drawing.Visible = false
+        for player, _ in pairs(skeletonDrawings) do
+            if skeletonDrawings[player] then
+                for _, line in pairs(skeletonDrawings[player].Lines) do
+                    if line then line:Remove() end
+                end
+                skeletonDrawings[player] = nil
+            end
+        end
     end
-end
-
--- Apply name ESP to all current players
-for _, player in pairs(players:GetPlayers()) do
-    createNameEsp(player)
-end
-
--- Handle new players joining the game
-players.PlayerAdded:Connect(function(player)
-    createNameEsp(player)
 end)
-
--- Handle players leaving the game
-players.PlayerRemoving:Connect(function(player)
-    removeNameEsp(player)
+ESPSection:NewColorPicker("ESP Color", "Change ESP Color", ESPColor, function(color)
+    ESPColor = color
 end)
-
--- Continuously update the name ESPs for all players
-runService.RenderStepped:Connect(function()
-    for player, drawing in pairs(nameEspCache) do
-        updateNameEsp(player, drawing)
+ 
+--------------------------------------------------
+-- Aim Tab Controls
+--------------------------------------------------
+AimSection:NewToggle("Aimbot", "Enable/Disable Aimbot", function(state)
+    AimbotEnabled = state
+end)
+AimSection:NewToggle("Team Check", "Only aim at enemies", function(state)
+    TeamCheck = state
+end)
+AimSection:NewSlider("FOV Size", "Adjust FOV size", 50, 500, function(value)
+    FOV_Radius = value
+end)
+AimSection:NewDropdown("Aim Part", "Choose target body part", {"Head", "Torso", "Leg"}, function(selected)
+    AimPart = selected
+end)
+AimSection:NewToggle("Show FOV", "Enable/Disable FOV circle", function(state)
+    FOV_Visible = state
+end)
+AimSection:NewSlider("Aimbot Sensitivity", "Adjust Aimbot speed", 0.05, 1, function(value)
+    Sensitivity = value
+end)
+AimSection:NewColorPicker("FOV Color", "Change FOV Circle Color", FOV_Color, function(color)
+    FOV_Color = color
+end)
+-- Aim Safe: استخدام Dropdown لتحديد لاعب من قائمة اللاعبين وإضافته إلى القائمة
+AimSection:NewDropdown("Select Safe Player", "Choose a player to ignore", RefreshSafePlayers(), function(selected)
+    if not table.find(safePlayers, selected) then
+        table.insert(safePlayers, selected)
+        print("Added to Aim Safe: " .. selected)
     end
-    end)
-    end,
- })
-
-local Button = ESPTab:CreateButton({
-   Name = "ESP ShowGuns By SergiuPro",
-   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro211/SouthCottonFREE/main/ShowGuns"))()
-   end,
-})
-
-local Button = InfYTab:CreateButton({
-   Name = "Inf Yeld",
-    Callback = function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-    end,
-})
-
-local Button = AutofarmTab:CreateButton({
-   Name = "Box AutoFarm To Truck",
-   Callback = function()
-         Wait(3)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-552, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-552, 4, -86)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-549, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-546, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-544, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-541, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-538, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-536, 4, -82)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-532, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-530, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-528, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-527, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-524, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-521, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-518, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-515, 3, -80)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-513, 3, -80)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-511, 3, -80)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-508, 3, -79)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-505, 3, -79)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-499, 3, -79)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-495, 3, -78)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-492, 3, -78)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-487, 3, -78)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-483, 3, -77)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-479, 3, -77)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-474, 3, -77)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-471, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-468, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-463, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-460, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-458, 4, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-455, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-452, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-452, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-449, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-445, 4, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-440, 3, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-437, 3, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-434, 3, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-430, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-427, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-424, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-421, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-418, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-415, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-413, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-410, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-407, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-404, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-401, 3, -72)
-   end,
-})
-
-local Button = AutofarmTab:CreateButton({
-   Name = "Box AutoFarm From Truck",
-   Callback = function()
-         Wait(3)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-401, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-404, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-407, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-410, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-413, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-415, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-418, 3, -72)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-421, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-424, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-427, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-430, 3, -73)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-434, 3, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-437, 3, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-440, 3, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-445, 4, -74)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-449, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-452, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-455, 4, -75)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-458, 4, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-460, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-463, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-468, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-471, 3, -76)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-474, 3, -77)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-479, 3, -77)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-483, 3, -77)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-487, 3, -78)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-492, 3, -78)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-495, 3, -78)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-499, 3, -79)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-505, 3, -79)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-508, 3, -79)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-511, 3, -80)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-513, 3, -80)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-515, 3, -80)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-518, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-521, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-524, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-527, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-528, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-530, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-532, 3, -81)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-536, 4, -82)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-538, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-541, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-544, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-546, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-549, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-552, 4, -83)
-
-Wait(0.5)
-
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-humanoidRootPart.CFrame = CFrame.new(-552, 4, -86)
-   end,
-})
+end)
+AimSection:NewButton("Clear Aim Safe", "Clear list of safe players", function()
+    safePlayers = {}
+    print("Aim Safe list cleared")
+end)
+ 
+--------------------------------------------------
+-- Security Tab Controls
+--------------------------------------------------
+SecuritySection:NewButton("What IS The Speed Limit In This Map", "Detects max WalkSpeed in the map", function()
+    local detectedSpeed = 0
+    for _, player in pairs(Players:GetPlayers()) do
+        if player.Character and player.Character:FindFirstChild("Humanoid") then
+            local speed = player.Character.Humanoid.WalkSpeed
+            if speed > detectedSpeed then
+                detectedSpeed = speed
+            end
+        end
+    end
+    if detectedSpeed > 0 then
+        MapSpeedLimit = detectedSpeed
+        StarterGui:SetCore("SendNotification", {
+            Title = "SPEED LIMIT DETECTED",
+            Text = "THE SPEED LIMIT IS: " .. MapSpeedLimit,
+            Duration = 5
+        })
+    else
+        StarterGui:SetCore("SendNotification", {
+            Title = "SPEED LIMIT DETECTED",
+            Text = "Could not detect speed limit; using default (" .. MapSpeedLimit .. ")",
+            Duration = 5
+        })
+    end
+end)
+SecuritySection:NewToggle("Lock Speed", "Prevents your speed from exceeding the map limit", function(state)
+    LockSpeedEnabled = state
+end)
+SecuritySection:NewSlider("Set Player Speed", "Set your speed (1 to detected limit)", 1, MapSpeedLimit, function(value)
+    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        value = math.clamp(value, 1, MapSpeedLimit)
+        LocalPlayer.Character.Humanoid.WalkSpeed = value
+    end
+end)
+-- God Mode Toggle
+SecuritySection:NewToggle("God Mode", "Enable/Disable God Mode", function(state)
+    GodModeEnabled = state
+end)
+-- Rehealth Button
+SecuritySection:NewButton("Rehealth", "Restore your health to maximum", function()
+    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        LocalPlayer.Character.Humanoid.Health = LocalPlayer.Character.Humanoid.MaxHealth
+    end
+end)
+-- Anti-Teleport System Check
+SecuritySection:NewButton("Is There Anti-Teleport System", "Checks if an anti-teleport system is active", function()
+    if workspace:FindFirstChild("AntiTeleport") then
+        StarterGui:SetCore("SendNotification", {
+            Title = "ANTI-TELEPORT SYSTEM",
+            Text = "There is an Anti-Teleport System active!",
+            Duration = 5
+        })
+    else
+        StarterGui:SetCore("SendNotification", {
+            Title = "ANTI-TELEPORT SYSTEM",
+            Text = "No Anti-Teleport System detected.",
+            Duration = 5
+        })
+    end
+end)
+-- Teleport target selection and action
+local teleportTarget = nil
+SecuritySection:NewDropdown("Select Teleport Target", "Choose a player to teleport to", (function()
+    local names = {}
+    for _, player in ipairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer then
+            table.insert(names, player.Name)
+        end
+    end
+    return names
+end)(), function(selected)
+    teleportTarget = selected
+    print("Teleport target set to: " .. selected)
+end)
+SecuritySection:NewButton("Teleport To Player", "Teleport to selected player", function()
+    if teleportTarget then
+        local targetPlayer = Players:FindFirstChild(teleportTarget)
+        if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+            if workspace:FindFirstChild("AntiTeleport") then
+                StarterGui:SetCore("SendNotification", {
+                    Title = "ANTI-TELEPORT ALERT",
+                    Text = "Cannot teleport! Anti-Teleport System is active!",
+                    Duration = 5
+                })
+            else
+                LocalPlayer.Character.HumanoidRootPart.CFrame = targetPlayer.Character.HumanoidRootPart.CFrame
+            end
+        else
+            warn("Teleport target invalid or not available.")
+        end
+    else
+        warn("No teleport target selected.")
+    end
+end)
+ 
+--------------------------------------------------
+-- About Me Tab Controls
+--------------------------------------------------
+-- Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ù„Ø¹Ø¨Ø© Ø§Ù„Ø­Ø§Ù„ÙŠØ©
+local success, gameInfo = pcall(function()
+    return MarketplaceService:GetProductInfo(game.PlaceId)
+end)
+local gameName = success and gameInfo.Name or "Unknown Game"
+local thumbType = Enum.ThumbnailType.HeadShot
+local thumbSize = Enum.ThumbnailSize.Size100x100
+local avatarUrl = Players:GetUserThumbnailAsync(LocalPlayer.UserId, thumbType, thumbSize)
+ 
+AboutSection:NewLabel("Player Name: " .. LocalPlayer.Name)
+AboutSection:NewLabel("Roblox UserId: " .. LocalPlayer.UserId)
+AboutSection:NewLabel("Display Name: " .. LocalPlayer.DisplayName)
+AboutSection:NewLabel("Game Playing: " .. gameName)
+AboutSection:NewLabel("Avatar URL: " .. avatarUrl)
+AboutSection:NewLabel("Account Age (days): " .. tostring(LocalPlayer.AccountAge))
